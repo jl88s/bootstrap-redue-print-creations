@@ -1,0 +1,33 @@
+p {
+  color: #212529 !important; }
+
+li {
+  list-style-type: none; }
+
+.bd-div {
+  height: 75vh; }
+
+.logo--text {
+  letter-spacing: .1rem;
+  font-family: 'MuseoModerno', cursive;
+  background-color: #39B8B2 !important; }
+
+.header-desc--txt {
+  font-size: 1.1em !important; }
+
+.sections {
+  margin-top: 7em; }
+
+.section-hdr {
+  margin-bottom: 4em !important; }
+
+.section-hdr:after {
+  background: none repeat scroll 0 0 #39B8B2;
+  bottom: -25px;
+  left: 0;
+  content: "";
+  display: block;
+  height: 3px;
+  position: relative;
+  width: 80px;
+  margin: 0 auto; }

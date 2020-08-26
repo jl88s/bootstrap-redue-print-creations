@@ -4,9 +4,249 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>STARTER PROJECT TEMPLATE!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+
+    <title>Print Creations - Bootstrap 4</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    
+    <!-- start -->
+    <div class="container">
+
+        <!-- logo -->
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <a class="navbar-brand pt-2" href="#">
+                <img src="images/tri.png" style="width: 6rem;">
+                <span class="text-uppercase logo--text font-weight-light"></span>
+            </a>
+
+            <!-- dropdown menu on smaller devices -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+                <!-- navigation list -->
+                <ul class="ml-auto navbar-nav mt-lg-0 font-weight-light">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Faqs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="mr-3 nav-link text-dark" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="text-white px-3 logo--text nav-link" href="#">Print Creations <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- header -->
+        <div class="jumbotron mt-5 bg-white">
+             <div class="row">
+                 <div class="col-lg-6">
+                        <h1 class="display-4 font-weight-bold">Your prints ready in seconds!</h1>
+                        <p class="lead header-desc--txt">At Print Creations, we specialize in a variety of services to meet our customer's expectations! We value your service, so being there every step of the way is very important to us. Whether you are looking to expand your brand, products, or simply create a poster for your school project, we are here to help.</p>
+                        <p class="lead">
+                            <a class="text-dark rounded-pill font-weight-bold btn btn-warning btn-sm px-5 py-2 mt-3" href="#" role="button">Start today</a>
+                        </p>
+                 </div>
+                 <div class="col-lg-6">
+                     <img class="img-fluid" src="images/live-ch-1.jpg" style="width: 40rem;">
+                 </div>
+                
+             </div>
+        </div>      
+         <!-- sub-heading  -->
+         <div class="container sections bg-white">
+            <h3 class="text-center section-hdr">Our Mission</h3>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="card-deck d-flex justify-content-center">
+                        <div class="card  border-1 mx-3 my-3 py-5 w-75">
+                            <img style="width:2em;" class="card-img-top my-2 mx-3 mx-auto" src="images/icons/check.svg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Sturdy Templates</h5>
+                                <p class="card-text font-weight-light">Well crafted templates so they don't break.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="card-deck d-flex justify-content-center">
+                        <div class="card  border-1 mx-3 my-3 py-5 w-75">
+                            <img style="width:2em;" class="card-img-top my-2 mx-3 mx-auto" src="images/icons/check.svg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Ready to ship</h5>
+                                <p class="card-text font-weight-light">Various shipping methods to meet your needs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="card-deck d-flex justify-content-center">
+                        <div class="card border-1 mx-3 my-3 py-5 w-75">
+                            <img style="width:2em;" class="card-img-top my-2 mx-3 mx-auto" src="images/icons/check.svg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Up to Date</h5>
+                                <p class="card-text font-weight-light">We keep up with modern trends to stay fresh.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="card-deck d-flex justify-content-center">
+                        <div class="card border-1 mx-3 my-3 py-5 w-75">
+                            <img style="width:2em;" class="card-img-top my-2 mx-3 mx-auto" src="images/icons/check.svg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Made with Care</h5>
+                                <p class="card-text font-weight-light">We're here to help you with every step of the way!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+
+        <!-- products -->
+        <div class="container sections">
+            <h2 class="text-center mb-5 section-hdr">Products</h2>
+
+            <div class="row">
+                <div class="col-md-6 col-lg col-12">
+                    <div class="card-deck">
+                        <div class="card border-0 mx-3 mt-3 pb-1">
+                            <img style="width:20em;" class="card-img-top my-2 mx-3 mx-auto" src="images/home-page/sc1-bcards.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h6 class="card-title lead text-black"><a href="#" class="text-dark">Business Cards</a></h6>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg col-12">
+                    <div class="card-deck">
+                        <div class="card border-0 mx-3 my-3 pb-1">
+                            <img style="width:20em;" class="card-img-top my-2 mx-3 mx-auto" src="images/home-page/sc2-brochures.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h6 class="card-title lead"><a href="#" class="text-dark">Brochures</a></h6>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg col-12">
+                    <div class="card-deck">
+                        <div class="card border-0 mx-3 my-3 pb-1">
+                            <img style="width:20em;" class="card-img-top my-2 mx-3 mx-auto" src="images/home-page/sc3-booklets.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h6 class="card-title lead"><a href="#" class="text-dark">Booklets</a></h6>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg col-12">
+                    <div class="card-deck">
+                        <div class="card border-0 mx-3 my-3 pb-1">
+                            <img style="width:20em;" class="card-img-top my-2 mx-3 mx-auto" src="images/home-page/sc4-pcards.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h6 class="card-title lead"><a href="#" class="text-dark">Postcards</a></h6>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg col-12">
+                    <div class="card-deck">
+                        <div class="card border-0 mx-3 my-3 pb-1">
+                            <img style="width:20em;" class="card-img-top my-2 mx-3 mx-auto" src="images/product-page/pro4.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h6 class="card-title lead"><a href="#" class="text-dark">Folders</a></h6>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg col-12">
+                    <div class="card-deck">
+                        <div class="card border-0 mx-3 my-3 pb-1">
+                            <img style="width:20em;" class="card-img-top my-2 mx-3 mx-auto" src="images/product-page/pro5.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h6 class="card-title lead"><a href="#" class="text-dark">Magazines</a></h6>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg col-12">
+                    <div class="card-deck">
+                        <div class="card border-0 mx-3 my-3 pb-1">
+                            <img style="width:20em;" class="card-img-top my-2 mx-3 mx-auto" src="images/product-page/pro7.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h6 class="card-title lead"><a href="#" class="text-dark">Calendars</a></h6>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg col-12">
+                    <div class="card-deck">
+                        <div class="card border-0 mx-3 my-3 pb-1">
+                            <img style="width:20em;" class="card-img-top my-2 mx-3 mx-auto" src="images/product-page/pro2.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h6 class="card-title lead"><a href="#" class="text-dark">Postcards</a></h6>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg col-12">
+                    <div class="card-deck">
+                        <div class="card border-0 mx-3 my-3 pb-1">
+                            <img style="width:20em;" class="card-img-top my-2 mx-3 mx-auto" src="images/product-page/pro8.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h6 class="card-title lead"><a href="#" class="text-dark">Posters</a></h6>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+       
+
+
+    </div>
+
+    
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
