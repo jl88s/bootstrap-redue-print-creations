@@ -6,14 +6,10 @@ li {
     list-style-type: none;
 }
 
-// .bd-div {
-//     height: 75vh;
-// }
-
 .logo--text {
     letter-spacing: .1rem;
     font-family: 'MuseoModerno', cursive;
-    background-color: #39B8B2 !important;
+    background-color: #282828	 !important;
 }
 
 .header-desc--txt {
@@ -21,7 +17,7 @@ li {
 }
 
 .sections {
-    margin-top: 7em;
+    margin-top: 7.5em;
 }
 
 .section-hdr {
@@ -29,14 +25,14 @@ li {
 }
 
 .section-hdr:after {
-    background: none repeat scroll 0 0 #39B8B2;
+    background: none repeat scroll 0 0 #282828;
     bottom: -25px;
     left: 0;
     content: "";
     display: block;
     height: 3px;
     position: relative;
-    width: 80px;
+    width: 50px;
     margin: 0 auto
 }
 
