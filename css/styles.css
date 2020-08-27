@@ -9,7 +9,7 @@ li {
   font-family: 'MuseoModerno', cursive;
   background-color: #282828	 !important; }
 
-.header-desc--txt {
+.desc--txt {
   font-size: 1.1em !important; }
 
 .sections {
@@ -28,3 +28,12 @@ li {
   position: relative;
   width: 50px;
   margin: 0 auto; }
+
+.text--underline:hover {
+  text-decoration: none !important; }
+
+.page-footer {
+  margin-bottom: 8em; }
+
+.footer-hr {
+  margin: 10em 0; }
